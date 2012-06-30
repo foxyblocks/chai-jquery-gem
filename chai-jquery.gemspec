@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "chai-jquery-gem"
+  gem.name          = "chai-jquery"
   gem.require_paths = ["lib"]
-  gem.version       = Chai::Jquery::Gem::VERSION
+  gem.version       = ChaiJquery::VERSION
 end

@@ -1,9 +1,5 @@
 require "chai-jquery-gem/version"
 
-module Chai
-  module Jquery
-    module Gem
-      # Your code goes here...
-    end
-  end
+module ChaiJquery
+  # Your code goes here...
 end
