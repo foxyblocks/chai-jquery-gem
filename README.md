@@ -1,5 +1,5 @@
-# Chai::Jquery::Gem
-
+# Chai Jquery Gem
+WIP
 A simple gem that adds chai-jquery
 Obviously it depends on the chai expectation library which in turn depends on
 the Mocha test library for javascript.
